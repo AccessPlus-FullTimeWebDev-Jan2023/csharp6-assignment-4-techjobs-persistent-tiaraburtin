@@ -20,8 +20,9 @@
 --Part 3: Write a query to return a list of the names and descriptions of all skills that are attached to jobs in alphabetical order.
     --If a skill does not have a job listed, it should not be included in the results of this query.
 
-    -- select skillname
-    -- from skill
-    -- right join jobs on jobs.skillid = skills.id
-    -- where skillsid is not null
-    -- orderby skillsname asc
+--select skillname
+-- from skills
+-- right join jobskills 
+-- on jobskills.skillsid = skills.id
+-- where skillsid is not null
+-- order by skillname asc
